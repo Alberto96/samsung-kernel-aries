@@ -627,4 +627,10 @@ config SAI
        help
          Say Y here to enable the SAI service
 
+config FSYNC_CONTROL
+        bool "Support for FSync Control"
+        default y
+        help
+          Say Y here to enable FSync Control
+
 endif # MISC_DEVICES
