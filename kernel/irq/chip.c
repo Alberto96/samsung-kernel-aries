@@ -315,8 +315,6 @@ out_unlock:
 }
 EXPORT_SYMBOL_GPL(handle_simple_irq);
 
-<<<<<<< HEAD
-=======
 /*
  * Called unconditionally from handle_level_irq() and only for oneshot
  * interrupts from handle_fasteoi_irq()
