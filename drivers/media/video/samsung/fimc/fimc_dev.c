@@ -1641,9 +1641,6 @@ int fimc_resume(struct platform_device *pdev)
 	else
 		ctrl->status = FIMC_STREAMOFF;
 
-	if (in_use && 0 != ctrl->id)
-		fimc_clk_en(ctrl, false);
-
 	return 0;
 }
 #else
