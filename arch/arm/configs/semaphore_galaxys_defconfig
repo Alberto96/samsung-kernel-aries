@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Linux/arm 3.0.26 Kernel Configuration
+# Linux/arm 3.0.31 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -1782,7 +1782,7 @@ CONFIG_RADIO_ADAPTERS=y
 # CONFIG_RADIO_SI4713 is not set
 # CONFIG_USB_DSBR is not set
 # CONFIG_RADIO_SI470X is not set
-CONFIG_RADIO_SI4709=y
+CONFIG_RADIO_SI4709=m
 # CONFIG_USB_MR800 is not set
 # CONFIG_RADIO_TEA5764 is not set
 # CONFIG_RADIO_SAA7706H is not set
